@@ -16,6 +16,10 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         }
         .image-background img {
             width: 100%;
@@ -33,20 +37,11 @@
             padding: 20px;
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 10px;
-        }
-        .center-text-overlay h1 {
-            font-size: 3em;
-            margin-bottom: 20px;
-        }
-        .center-text-overlay p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
-        </style>
+    </style>
     </head>
     <body>
         <div class="image-background">
-        <img src="https://i.ibb.co/W4bWPRGW/Screenshot-2025-10-24-194111.png" alt="Screenshot-2025-10-24-194111" border="0">
+        <img center src="https://i.ibb.co/W4bWPRGW/Screenshot-2025-10-24-194111.png" alt="Screenshot-2025-10-24-194111" border="0">
         </div>
         <div class="center-text-overlay">
             <h1>Join Us for a Festive Christmas Party!</h1>
@@ -57,4 +52,5 @@
         </div>
     </body>
 </html>
+    
     
